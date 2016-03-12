@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('server'));
 
 app.get('/', function (req, res, next) {
-  res.send('Hello World!');
+  res.sendFile( __dirname +'/frontend/index.html');
 });
 
 
