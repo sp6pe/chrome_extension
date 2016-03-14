@@ -109,6 +109,7 @@ body {
 }
 .table-filter .media-body {
     display: block;
+    width : 100%;
     /* Had to use this style to force the div to expand (wasn't necessary with my bootstrap version 3.3.6) */
 }
 .table-filter .media-meta {
